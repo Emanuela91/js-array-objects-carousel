@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.img_container{
+    height: 100%;
+    position: relative;
+}
+
+
+.foto{
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.foto.active{
+    display: block;
+}
+
+.foto img{
+    height: 100%;
+    width: 100%;
+}
+
+.foto h1{
+    color: white;
+    text-align: end;
+    position: relative;
+    bottom: 20%;
+    padding-right: 10px;
+}
+
+.foto p{
+    color: white;
+    text-align: end;
+    position: relative;
+    bottom: 20%;
+    padding-right: 10px;
+}
+
+
+#avanti{
+    position: absolute;
+    font-size: 20px;
+    top: 0;
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+}
+
+#indietro{
+    position: absolute;
+    font-size: 20px;
+    bottom: 0;
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+}
+
+.hidden{
+    display: none;
+}
